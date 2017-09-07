@@ -32,6 +32,16 @@ about:
   home: https://github.com/jupyterlab/jupyterlab
   license: BSD 3-Clause
   summary: A pre-alpha version of a computational environment for Jupyter.
+  description: |
+    JupyterLab is the next generation user interface for Project Jupyter. 
+    It offers all the familiar building blocks of the classic Jupyter Notebook 
+    (notebook, terminal, text editor, file browser, rich outputs, etc.) in a 
+    flexible and powerful user inteface that can be extended through third party 
+    extensions that access our public APIs. Eventually, JupyterLab will replace the 
+    classic Jupyter Notebook.
+  doc_url: http://jupyterlab-tutorial.readthedocs.io/en/latest/
+  dev_url: https://github.com/jupyterlab/jupyterlab
+  doc_source_url: https://github.com/jupyterlab/jupyterlab/tree/master/docs
 
 extra:
   recipe-maintainers:
