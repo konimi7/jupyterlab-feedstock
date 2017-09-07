@@ -20,6 +20,12 @@ build:
     - jupyter-labextension = jupyterlab.labextensions:main
     - jupyter-labhub = jupyterlab.labhubapp:main
 
+app:
+  entry: jupyter lab
+  icon: icon.png
+  summary: JupyterLab PRE-ALPHA
+  type: desk
+
 requirements:
   build:
     - python
