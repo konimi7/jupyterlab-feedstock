@@ -31,8 +31,8 @@ requirements:
     - pip
   run:
     - python
-    - jupyterlab_launcher >=0.10.0,<0.11.0
-    - notebook >=4.3
+    - jupyterlab_launcher >=0.11.0,<0.12.0
+    - notebook >=4.3.1
     - futures  # [py2k]
     - subprocess32   # [py2k]
 
