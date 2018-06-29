@@ -9,6 +9,8 @@ source:
     fn: jupyterlab-{{ version }}.tar.gz
     url: https://pypi.io/packages/source/j/jupyterlab/jupyterlab-{{ version }}.tar.gz
     sha256: {{ sha256 }}
+    patches:
+      - 0001-Update-jupyterlab_launcher-pins.patch
 
 build:
   number: 0
