@@ -31,7 +31,7 @@ requirements:
   run:
     - python
     - jupyterlab_launcher >=0.11.2,<0.12.0
-    - notebook >=4.3
+    - notebook >=4.3.1
     - futures  # [py2k]
     - subprocess32   # [py2k]
   run_constrained:
