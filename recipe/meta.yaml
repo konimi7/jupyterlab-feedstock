@@ -25,7 +25,7 @@ app:
   type: desk
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
