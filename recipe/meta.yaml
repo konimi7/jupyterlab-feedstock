@@ -1,5 +1,5 @@
-{% set version = "0.34.9" %}
-{% set sha256 = "4a65022798d29b5a700e61dbb0b6ddb92a5bcc3ba90dd5de51383ed2f0d4f127" %}
+{% set version = "0.34.12" %}
+{% set sha256 = "7d8378d19a0ae173e91a493db996c37828b410b7ee556da21a153486168ecf87" %}
 
 package:
   name: jupyterlab
