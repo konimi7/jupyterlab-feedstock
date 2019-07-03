@@ -1,5 +1,5 @@
-{% set version = "0.35.5" %}
-{% set sha256 = "1421934d3a8ce86366036faedf6d171c2571166a5856748e1cb6775625b5c75e" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "1c325cbe9e8e3b3e552550e24a48f03182a64f533a85ed153330cbd006e9326d" %}
 
 package:
   name: jupyterlab
@@ -21,7 +21,7 @@ build:
 app:
   entry: jupyter lab
   icon: icon.png
-  summary: JupyterLab PRE-ALPHA
+  summary: JupyterLab
   type: desk
 
 requirements:
@@ -31,7 +31,7 @@ requirements:
     - nodejs >=8
   run:
     - python
-    - jupyterlab_server >=0.2.0,<0.3.0
+    - jupyterlab_server >=1.0.0,<2.0.0
     - notebook >=4.3.1
 
 test:
