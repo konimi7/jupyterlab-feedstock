@@ -1,5 +1,5 @@
-{% set version = "1.0.0" %}
-{% set sha256 = "1c325cbe9e8e3b3e552550e24a48f03182a64f533a85ed153330cbd006e9326d" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "e8aa6096d4e723a172fdef2e50330b8781b49b03ce79790211848f57b123193e" %}
 
 package:
   name: jupyterlab
@@ -33,6 +33,7 @@ requirements:
     - python
     - jupyterlab_server >=1.0.0,<2.0.0
     - notebook >=4.3.1
+    - tornado !=6.0.0,!=6.0.1,!=6.0.2
 
 test:
   requires:
